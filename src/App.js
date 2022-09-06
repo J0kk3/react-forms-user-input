@@ -1,10 +1,11 @@
-import './App.css';
+import SimpleInput from './components/SimpleInput';
 
-const App = () =>
-{
+function App() {
   return (
-    <h1>Hello User!</h1>
+    <div className="app">
+      <SimpleInput />
+    </div>
   );
-};
+}
 
 export default App;
